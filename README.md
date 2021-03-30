@@ -119,12 +119,45 @@ a percentile ranking represents the proportion of tracts that are equal to or lo
 
 This project could serve as your interactive CDC SVI, as you navigate to the different sites provided in this project, including maps. You could search for your own tract and evaluate the data. You could match other tracts within this county or any other county in Kentucky. 
 
-The additional code at the end of the project could be examined at a later day for comparison or for pure curiosity:
+The additional code at the end of the project could also be examined:
 
-* **west9_2018_df** tract \#21111002700 in Jeff. Co. West of 9th. Street, 1.397 square miles, population 2403, persons below poverty 1252
-* **anchorage2018_df** tract \#21111010403 in Jeff. Co. Anchorage area, 4.329 square miles, population 3925, persons below poverty 251
+Within Jefferson Census Tracts:
+                   
+**Socioeconomic Status** | **west9_2018_df**  | **anchorage2018_df**
+----------------------- | ------------------- | ---------------
+* tract FIPS            | \# 27  21111002700  | \# 104.03  21111010403
+* Below Poverty         | 1252                | 251
+* Unemployed            | 52                  | 156
+* Income                | 57759               | 15178
+* No High School Diploma| 101                 | 401
+
+ **Household Composition & Disability**|**west9_2018_df** | **anchorage2018_df**
+  ----------------------- | ------------------- | ---------------
+ 
+* Aged 65 or Older        | 1022                | 230
+* Aged 17 or Younger      | 775                 | 799
+* Civilian with a Disability | 455              | 693
+* Single-Parent Households | 47                 | 289
+
+ **Minority Status & Language**|**west9_2018_df** | **anchorage2018_df**
+  ----------------------- | --------------------| ---------------
+ 
+* Minority                | 724                 | 2011
+* Speaks English “Less than Well” | 4           | 81
+
+ **Housing Type & Transportation**|**west9_2018_df** | **anchorage2018_df**
+   ----------------------- | --------------------| ---------------
+
+* Multi-Unit Structures    | 158                 | 189
+* Mobile Homes             | 10                  | 7
+* Crowding                 | 11                  | 70
+* No Vehicle               | 50                  | 405
+* Group Quarters           | 151                 | 148
+
+Outside of Jefferson Census Tract:
+
 * **oldhamco2018_df** tract \#21185030801 in Oldham Co., 5.381 square miles, population 4589, persons below poverty 86
 * **martin2018_df** tract \#21159950100 in Martin Co., 36.306 square miles, population 3723, persons below poverty 1002
 
-The examination of data in this project is only the beginning. Much more can be determined by either exploring clusters of tracts, like the West End and Anchorage, which could tell more about those pockets of data. In addition, other counties could be added, or the entire state of Kentucky could be examined. 
+The examination of data in this project is only the beginning. Much more can be determined by either exploring clusters of tracts, like the West End and Anchorage are within Jefferson Co., which could tell more about those pockets of data and life realities. In addition, other counties could be added, or the entire state of Kentucky could be examined for a more clear picture of the vulnerability in the state. 
 
